@@ -1,0 +1,2 @@
+--vim.cmd("colorscheme nightfox")
+--vim.g.lightline = { colorscheme = "nightfox" } -- Or the name of colorscheme you use
