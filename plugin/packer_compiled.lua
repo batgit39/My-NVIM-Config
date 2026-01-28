@@ -130,10 +130,20 @@ _G.packer_plugins = {
     path = "/home/mitresh/.local/share/nvim/site/pack/packer/start/deoplete-jedi",
     url = "https://github.com/deoplete-plugins/deoplete-jedi"
   },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "/home/mitresh/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
   ["feline.nvim"] = {
     loaded = true,
     path = "/home/mitresh/.local/share/nvim/site/pack/packer/start/feline.nvim",
     url = "https://github.com/feline-nvim/feline.nvim"
+  },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/home/mitresh/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,

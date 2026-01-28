@@ -13,7 +13,13 @@ local cmp = require('cmp')
 cmp.setup({
   mapping = {
     ['<CR>'] = cmp.mapping.confirm({select = false}),
-  }
+  },
+  sources = cmp.config.sources({
+        { name = 'nvim_lsp' },
+        { name = 'luasnip' },  -- If you are using LuaSnip for snippets
+        { name = 'buffer' },
+        { name = 'path' },
+    }),
 })
 
 lsp.set_preferences({
